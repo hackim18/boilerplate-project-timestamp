@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "rewrites": [{ "source": "/(.*)", "destination": "/api" }],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ],
+  "builds": [{ "src": "index.js", "use": "@now/node" }]
+}
